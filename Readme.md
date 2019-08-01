@@ -1,32 +1,33 @@
-# Prueba - API
-A modo de ver las buenas practicas, capacidades y destrezas. Se desea que el interesado realice el siguiente API REST JSON.
+# Test - API
+In order to see the good practices, capacities and abilities. It is needed to be developed as an API REST JSON.
 
 ## API
-Se solicita la creación de un API REST JSON, para administración de países (https://en.wikipedia.org/wiki/ISO_3166-1) y sus 
-subdivisiones (ej.: departamentos)
+Its requested the creation of a JSON REST API, for the management of countries 
+(https://en.wikipedia.org/wiki/ISO_3166-1) and its subdivisions (ie.: Departments)
 
-## Esperado 
-Se espera que el API permita:
-- Dar de alta a paises (nombre, codigos alfas, codigo numerico, etc)
-- Dar de alta a las subdivisiones de un pais
-- Listar varios paises
-	- Filtrar por nombre, codigo alfa 2
-	- Totalizar cantidad de paises obtenido
-- Consultar la información de una subdivisión de un país
-- Listar varias subdivisiones de un país
-	- Totalizar la cantidad de paises obtenidos
-- Actualizar la información de un país
-- Actualizar la información de la subdivisión de un país
-- Borrar país
-- Borrar subdivisión de un país
+## Expected
+It is expected that the API allows:
+- Register a country (name, alpha code, numeric code, etc)
+- Register a country subdivision
+- List multiple countries
+	- Filter by name and Alpha Code
+	- Totalize the amount of obtained countries
+- Consult the information of a country subdivision
+- List multiple subdivisions of a country
+	- Totalize the amount of obtained country subdivisions
+- Update a countrys information
+- Update a country subdivisions information
+- Delete a country
+- Delete a country subdivision
 
-El API debe ser desarrollado en ASP.NET Core usando la plantilla Web API con C# y contar con la documentación 
-de instalación y uso.
+The API must be developed in ASP.NET Core utilizing the C# Web API Template and have with the instalation and usage 
+documentation.
 
-## Instalación
 
-1. Clonar la solución
-2. Ejecutar `dotnet ef database update`
-3. Ejecutar solución
+## Installation
 
-Ruta de swagger: `http://localhost:port/swagger/v1`
+1. Clone the repository
+2. Execute the following command `dotnet ef database update`
+3. Execute the Visual Studio Solution
+
+Swagger Route: `http://localhost:port/swagger/v1`
