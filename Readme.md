@@ -28,6 +28,7 @@ documentation.
 
 1. Clone the repository
 2. Execute the following command `dotnet ef database update`
-3. Execute the Visual Studio Solution
+3. Update the Default Connection String in appsettings.json under the ConnectionStrings node.
+4. Execute the Visual Studio Solution
 
 Swagger Route: `http://localhost:port/swagger/v1`
