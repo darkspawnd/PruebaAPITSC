@@ -23,3 +23,10 @@ Se espera que el API permita:
 El API debe ser desarrollado en ASP.NET Core usando la plantilla Web API con C# y contar con la documentación 
 de instalación y uso.
 
+## Instalación
+
+1. Clonar la solución
+2. Ejecutar `dotnet ef database update`
+3. Ejecutar solución
+
+Ruta de swagger: `http://localhost:port/swagger/v1`
